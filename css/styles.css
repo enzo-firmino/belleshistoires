@@ -1,0 +1,470 @@
+body{
+    background-color: #00377C !important;
+}
+
+
+.content {
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5), -1px -1px 5px rgba(51, 51, 51, 0.2);
+    max-width: 70%;
+    background-color: white;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.mots_publics_page {
+    display: flex;
+}
+
+.container_mots_publics_admin {
+
+}
+
+.mots_publics_admin {
+    background-color: gainsboro;
+    margin: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    height: fit-content;
+    padding-left: 2px;
+    float: left;
+}
+
+
+#nbr_belles_histoires {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#dernieres_belles_histoires {
+    margin-top: 50px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+}
+
+.nav-link {
+    color: #404040 !important;
+    font-size: 1.5rem !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 8px;
+    border-radius: 5px;
+    width: max-content;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 1rem !important;
+    color: black !important;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #404040 !important;
+    font-size: 1.2rem !important;
+}
+
+.dropdown-content a:hover {
+    color: blue !important;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.underline {
+    text-decoration: underline blue !important;
+}
+
+.progress {
+    width: 60%;
+    height: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.carousel {
+    height:100vh;
+}
+
+.custom-select {
+    border-color: #0d6efd !important;
+}
+
+label.custom-control-label {
+    position: relative;
+    padding-right: 1.5rem;
+}
+
+label.custom-control-label::before, label.custom-control-label::after{
+    right: 0;
+    left: auto;
+}
+
+.error {
+    color: red;
+}
+
+.carousel-inner {
+    width: 70% !important;
+    margin: 50px auto auto;
+    box-shadow: 5px 5px 5px #404040;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    min-height: 70vh;
+    padding: 25px 50px 50px;
+    background-color: white;
+}
+
+.btn_continuer {
+    position: absolute;
+    margin-top: 10px !important;
+    bottom: 10px;
+    right: 10px;
+    left: unset;
+    top: unset;
+}
+
+.btn_finaliser {
+    position: absolute;
+    margin-top: 10px !important;
+    bottom: 10px;
+    right: 50%;
+    transform: translate(50%, 0);
+    left: unset;
+    top: unset;
+}
+
+.btn_precedent {
+    position: absolute;
+    margin-top: 10px !important;
+    bottom: 10px;
+    left: 10px;
+    right: unset;
+    top: unset;
+}
+
+.row_margin_bottom {
+    margin-bottom: 30px;
+}
+
+.modif_info {
+    color: white;
+    width: 70%;
+    margin: auto;
+    transform: translate(0, 50px);
+    font-size: 1.2rem;
+}
+
+.container_mots_publics {
+    width: 100%;
+    height: 150px;
+    margin-top: 25px;
+    border: #0d6efd 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    align-content: flex-start
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+.index_contact {
+    margin-bottom: 10px;
+}
+
+.contact:nth-child(even) {
+    background: #e6e6e6;
+}
+
+.contact:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.contact .custom-control-label::before {
+    background-color: #919aa1 !important;
+}
+
+.contact .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #007bff !important;
+}
+
+.mots_cles, .publics_cibles {
+    background-color: gainsboro;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 0 1px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.min_width_col {
+    min-width: 300px;
+}
+
+.form-control, .form-select {
+    border-color: #0d6efd !important;
+}
+
+.premier_separateur {
+    justify-content: start !important;
+}
+
+
+.box_form_mots_publics {
+    border: black 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #404040;
+}
+
+.box_form_mots_publics .col-auto {
+    padding: unset;
+}
+
+.row_mots_publics {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.col_mots_publics {
+    width: 45%;
+}
+
+@media (max-width: 1250px) {
+    .row_mots_publics {
+        flex-direction: column;
+        align-items: center;
+    }
+    .col_mots_publics {
+        width: 80%;
+    }
+}
+
+.align_left {
+    align-items: flex-start;
+}
+
+.align_right {
+    align-items: flex-end;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.justify_end {
+    justify-content: flex-end;
+}
+
+.row_input_ajouter {
+    display: flex;
+    width: 100%;
+}
+
+.btn_ajouter {
+    margin-left: 10px;
+}
+
+#btn_ajouter_contact {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #cccccc !important;
+    border-color: #cccccc !important;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.btn_supprimer_contact {
+    text-align: end;
+    cursor: pointer;
+}
+
+.btn_supprimer_contact:hover {
+    color: red;
+}
+
+.form-control, .form-select {
+    min-width: 150px !important;
+}
+
+#box_recherche {
+   box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5), -1px -1px 5px rgba(51, 51, 51, 0.2);
+    max-width: 70%;
+    background-color: white;
+    margin: 70px auto;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+#champs_recherche {
+    margin: auto;
+    max-width: 50vw;
+}
+
+
+#box_recherche .row {
+    margin: unset;
+    justify-content: space-around;
+
+}
+
+.dt {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.dtd {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.liste_histoires {
+    margin-top: 50px;
+}
+
+.champs_suppl {
+    margin-top: 50px;
+    display: none;
+}
+
+.item_histoire {
+    width: 70%;
+    padding: 10px 5px 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 25px auto;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5), -1px -1px 5px rgba(51, 51, 51, 0.2);
+}
+
+#content_recherche {
+    padding-bottom: 50px;
+}
+
+#scrollToTop a {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+#scrollToTop a:hover , #btn_retour:hover {
+    box-shadow: 0px 0px 5px #222;
+    -moz-box-shadow: 0px 0px 5px #222;
+    -webkit-box-shadow: 0px 0px 5px #222;
+    text-decoration: none !important;
+}
+
+#btn_retour {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.no_result {
+    width: 60%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    margin: 25px auto;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5), -1px -1px 5px rgba(51, 51, 51, 0.2);
+}
+
+#content_detail_histoire {
+    padding-bottom: 50px;
+}
+
+#histoire_detail {
+    width: 60%;
+    padding: 25px 50px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5), -1px -1px 5px rgba(51, 51, 51, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.margin_bottom {
+    margin-bottom: 15px;
+}
+
+.contact_histoire {
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+.contact_histoire>div {
+    margin-bottom: 10px;
+}
+
+.separateur {
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+
+#btn_retour:hover {
+    color: blue !important;
+    transform: scale(1.2);
+}
+
+.daterangepicker td.in-range:not(.end-date) {
+    background-color: #9acee5 !important;
+}
+
+.a_btn:hover {
+    color: blue !important;
+    cursor: pointer;
+}
+
+
+/*Admin*/
+#form_ajout {
+    margin: 20px;
+}
+
+
+
